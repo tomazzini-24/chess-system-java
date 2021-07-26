@@ -2,7 +2,10 @@ package chess;
 
 import java.util.ArrayList;
 import java.util.List;
+<<<<<<< HEAD
 import java.util.stream.Collectors;
+=======
+>>>>>>> 06929760404530962925d0167f168228ca3869e6
 
 import boardgame.Board;
 import boardgame.Piece;
@@ -16,6 +19,9 @@ public class ChessMatch {
     private Color currentPlayer;
 	private Board board;
 	private boolean check;
+	
+	private List<Piece> piecesOnTheBoard = new ArrayList<>();
+	private List<Piece> capturedPieces = new ArrayList<>();
 	
 	private List<Piece> piecesOnTheBoard = new ArrayList<>();
 	private List<Piece> capturedPieces = new ArrayList<>();
